@@ -1,5 +1,5 @@
 try:
-    numero = float(input("Digite o número "))
-    print(f"{numero} é um número pertencente aos reais!")
+    numero = int(input("Digite o número "))
+    print(f"{numero} é um número inteiro!")
 except ValueError:
-    print("O que foi digitado não é um número!")
+    print("O que foi digitado não é um número inteiro!")
